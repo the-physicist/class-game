@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jogo do Herói</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Jogo do Herói</h1>
+        <div class="hero">
+            <button onclick="atacar('mago')">Mago</button>
+            <button onclick="atacar('guerreiro')">Guerreiro</button>
+            <button onclick="atacar('monge')">Monge</button>
+            <button onclick="atacar('ninja')">Ninja</button>
+        </div>
+        <div id="result" class="hidden">
+            <p id="hero-result"></p>
+        </div>
+    </div>
+    <script src="heroi.js" defer></script>
+</body>
+</html>
